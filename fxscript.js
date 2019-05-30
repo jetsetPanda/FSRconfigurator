@@ -7,7 +7,7 @@ $(document).ready(function () {
     const clampPrice = 100;
     const inTablePrice = 150;
     const underTablePrice = 140;
-    const DualInTablePrice = 280;
+    const dualInTablePrice = 280;
 
     const resetPrices = () => {
         priceTally = 0;
@@ -18,7 +18,7 @@ $(document).ready(function () {
         customerOrder = [];
         console.log(`run resetCustomerOrder > current customerOrder: ${customerOrder[0]}`);
     }
-
+ 
     // const createACButtons = (numOfAC) => {
     // }
 
@@ -37,25 +37,39 @@ $(document).ready(function () {
         "Five": [ "./images/Clamp-On/SYM-CL-5AC-1SS-CCC/SYM-CL-5AC-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-5AC-2CA-1SS-CCC/SYM-CL-5AC-2CA-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-5AC-2SS-CCC/SYM-CL-5AC-2SS-CCC_allwhite.png" ]
     };
 
+    const dualInTableImgs = {
+        "Two": [ "./images/Dual-In-Table/SYM-DIN-2AC-1CA-1VGA-1SS-CCC/SYM-DIN-2AC-1CA-1VGA-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-2AC-1CA-2SS-CCC/SYM-DIN-2AC-1CA-2SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-2AC-1CA-1SS-CCC/SYM-DIN-2AC-1CA-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-2AC-1SS-CCC/SYM-DIN-2AC-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-2AC-2CA-1SS-CCC/SYM-DIN-2AC-2CA-1SS-CCC_allwhite.png" ]
+        ,
+        "Three": [ "./images/Dual-In-Table/SYM-DIN-3AC-1CA-1SS-CCC/SYM-DIN-3AC-1CA-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-3AC-1CA-2SS-CCC/SYM-DIN-3AC-1CA-2SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-3AC-1CA-VGA-1SS-CCC/SYM-DIN-3AC-1CA-VGA-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-3AC-2CA-1SS-CCC/SYM-DIN-3AC-2CA-1SS-CCC_allwhite.png" ]
+        ,
+        "Four": [ "./images/Dual-In-Table/SYM-DIN-4AC-1CA-1SS-CCC/SYM-DIN-4AC-1CA-1SS-CCC_allwhite.png" ]
+    }
 
+    const underTableImgs = {
+        "Two": [ "./images/Under-Table/SYM-UT-2AC-1CA-1SS-CCC/SYM-UT-2AC-1CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-1CA-1VGA-2SS-CCC/SYM-CL-2AC-1CA-1VGA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-1CA-1XLR-2SS-CCC/SYM-UT-2AC-1CA-1XLR-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-1CA-2SS-CCC/SYM-UT-2AC-1CA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-2CA-1SS-CCC/SYM-UT-2AC-2CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-2CA-1VGA-2SS-CCC/SYM-UT-2AC-2CA-1VGA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-2CA-1XLR-2SS-CCC/SYM-CL-2AC-2CA-1XLR-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-2CA-2SS-CCC/SYM-UT-2AC-2CA-2SS-CCC_allwhite.png" ]
+        ,
+        "Three": [ "./images/Under-Table/SYM-UT-3AC-1CA-1SS-CCC/SYM-UT-3AC-1CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-1CA-1VGA-2SS-CCC/SYM-UT-3AC-1CA-1VGA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-1CA-1XLR-2SS-CCC/SYM-UT-3AC-1CA-1XLR-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-1CA-2SS-CCC/SYM-UT-3AC-1CA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-2CA-1SS-CCC/SYM-UT-3AC-2CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-2CA-2SS-CCC/SYM-UT-3AC-2CA-2SS-CCC_allwhite.png" ]
+        ,
+        "Four": [ "./images/Under-Table/SYM-UT-4AC-1CA-1SS-CCC/SYM-UT-4AC-1CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-4AC-1CA-2SS-CCC/SYM-UT-4AC-1CA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-4AC-1SS-CCC/SYM-UT-4AC-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-4AC-1VGA-2SS-CCC/SYM-UT-4AC-1VGA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-4AC-1XLR-2SS-CCC/SYM-UT-4AC-1XLR-2SS-CCC_allwhite.png" ]
+        ,
+        "Five": [ "./images/Under-Table/SYM-UT-5AC-1SS-CCC/SYM-UT-5AC-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-5AC-2CA-1SS-CCC/SYM-UT-5AC-2CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-5AC-2SS-CCC/SYM-UT-5AC-2SS-CCC_allwhite.png" ]
+    }
 
-    const displayShit = (numSlots) => {
+    const inTableImgs = {
+        "Two": [ "./images/In-Table/SYM-IN-2AC-1CA-1VGA-1SS-CCC/SYM-IN-2AC-1CA-1VGA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-2AC-1CA-2SS-CCC/SYM-IN-2AC-1CA-2SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-2AC-1CA-1SS-CCC/SYM-IN-2AC-1CA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-2AC-1SS-CCC/SYM-IN-2AC-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-2AC-2CA-1SS-CCC/SYM-IN-2AC-2CA-1SS-CCC_allwhite.png" ]
+          ,
+        "Three": [ "./images/In-Table/SYM-IN-3AC-1CA-1SS-CCC/SYM-IN-3AC-1CA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-1CA-2SS-CCC/SYM-IN-3AC-1CA-2SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-1CA-VGA-1SS-CCC/SYM-IN-3AC-1CA-VGA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-2CA-1SS-CCC/SYM-IN-3AC-2CA-1SS-CCC_allwhite.png" ]
+        ,
+        "Four": [ "./images/In-Table/SYM-IN-4AC-1CA-1SS-CCC/SYM-IN-4AC-1CA-1SS-CCC_allwhite.png" ]
+      }
+
+    const displayClampOnImgs = (numSlots) => {
         let imglinks = '';
         switch (numSlots) {
             case "Two":
                 var boxHeader = $("<h4 class='fontone'>");
                 boxHeader.html("Clamp-On 2-AC");
                 $("#pickProduct").append(boxHeader);
-
-                // FX: FOR REFERENCE ONLY
-                // for (var links in clampOnImgs.Two) {
-                //     imglinks = links;
-                //     console.log(imglinks);
-                //     let img = $("<img>");
-                //     img.attr("src", imglinks);
-                //     $("#pickProduct").append(img);
-                //     // imglinks += clampOnImgs.Two[links];
-                // };
 
                 for (var i = 0; i < clampOnImgs.Two.length; i++) {
                     var btn = $("<a>");
@@ -108,8 +122,6 @@ $(document).ready(function () {
                     $("#pickProduct").append(btn);
                 }
                 break;
-                break;
-
             case "Five":
                 var boxHeader = $("<h4>");
                 boxHeader.html("Clamp-On 5-AC");
@@ -122,16 +134,216 @@ $(document).ready(function () {
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
                     btn.attr("value", clampOnImgs.Five[i]);
-                    img.attr("src", clampOnImgs.Five[i]);
+                    img.attr("src", clampOnImgs.Five [i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
                     $("#pickProduct").append(btn);
                 }
                 break;
+            }
+    }
+    
+    const displayInTable = (numSlots) => {
+        switch (numSlots) {
+            case "Two":
+                var boxHeader = $("<h4 class='fontone'>");
+                boxHeader.html("In-Table 2-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < inTableImgs.Two.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", inTableImgs.Two[i]);
+                    img.attr("src", inTableImgs.Two[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+
+            case "Three":
+                var boxHeader = $("<h4>");
+                boxHeader.html("In-Table 3-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < inTableImgs.Three.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", inTableImgs.Three[i]);
+                    img.attr("src", inTableImgs.Three[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+
+            case "Four":
+                var boxHeader = $("<h4>");
+                boxHeader.html("In-Table 4-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < inTableImgs.Four.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", inTableImgs.Four[i]);
+                    img.attr("src", inTableImgs.Four[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
                 break;
             }
-}
-    
+    }
+
+    const displayUnderTable = (numSlots) => {
+        let imglinks = '';
+        switch (numSlots) {
+            case "Two":
+                var boxHeader = $("<h4 class='fontone'>");
+                boxHeader.html("Under-Table 2-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < underTableImgs.Two.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", underTableImgs.Two[i]);
+                    img.attr("src", underTableImgs.Two[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+
+            case "Three":
+                var boxHeader = $("<h4>");
+                boxHeader.html("Under-Table 3-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < underTableImgs.Three.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", underTableImgs.Three[i]);
+                    img.attr("src", underTableImgs.Three[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+
+            case "Four":
+                var boxHeader = $("<h4>");
+                boxHeader.html("Under-Table 4-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < underTableImgs.Four.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", underTableImgs.Four[i]);
+                    img.attr("src", underTableImgs.Four[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+            case "Five":
+                var boxHeader = $("<h4>");
+                boxHeader.html("Under-Table 5-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < clampOnImgs.Five.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", underTableImgs.Five[i]);
+                    img.attr("src", underTableImgs.Five [i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+            }
+    }
+
+    const displayDualInTable = (numSlots) => {
+        switch (numSlots) {
+            case "Two":
+                var boxHeader = $("<h4 class='fontone'>");
+                boxHeader.html("Dual In-Table 2-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < dualInTableImgs.Two.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", dualInTableImgs.Two[i]);
+                    img.attr("src", dualInTableImgs.Two[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+
+            case "Three":
+                var boxHeader = $("<h4>");
+                boxHeader.html("Dual In-Table 3-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < dualInTableImgs.Three.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", dualInTableImgs.Three[i]);
+                    img.attr("src", dualInTableImgs.Three[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+
+            case "Four":
+                var boxHeader = $("<h4>");
+                boxHeader.html("Dual In-Table 4-AC");
+                $("#pickProduct").append(boxHeader);
+
+                for (var i = 0; i < dualInTableImgs.Four.length; i++) {
+                    var btn = $("<a>");
+                    var img = $("<img>");
+                    img.addClass("imgCard");
+                    img.attr("alt", "2-AC");
+                    btn.attr("href", "#");
+                    btn.attr("value", dualInTableImgs.Four[i]);
+                    img.attr("src", dualInTableImgs.Four[i]);
+                    img.attr("style", "width: 50%");
+                    btn.append(img);
+                    $("#pickProduct").append(btn);
+                }
+                break;
+        }
+    }
 
 
     // reset button in modal:
@@ -163,143 +375,93 @@ $(document).ready(function () {
         $(".pickAC").on("click", function() {
             let numACslots = $(this).data("slot");
             console.log(`Number of Slots Selected: ${numACslots}`);
-
-            displayShit(numACslots);
-
-            // flip to next carousel with these choices    
-            $('.carousel').carousel(1);
-        
+            displayClampOnImgs(numACslots);
+            // transition to Carousel #2 with product choices generated by func above  
+            $('.carousel').carousel(1);        
         });
-
-
 
     });
     
     $("#chooseInTable").on("click", function() {
+        // resets and init
+        resetDivs();
         resetPrices();
         resetCustomerOrder();
         priceTally += inTablePrice;
-        console.log(`init inTable cost: $${priceTally}`);
+        customerOrder.push('In-Table');
+        console.log(`test init In-Table cost: $${priceTally}`);
+        console.log(`test init customerOrder is: ${customerOrder[0]}`);
 
-        $('#displayModal').modal('show'); 
+        // display AC selections on modal screen
+        const selectAC = "<div class='pickAC btn btn-lg ml-2 btn-success' data-slot='Two'>2-AC</div><div class='pickAC btn btn-lg ml-2 btn-success' data-slot='Three'>3-AC</div><div class='pickAC btn btn-lg ml-2 btn-success'  data-slot='Four'>4-AC</div>";
+        $('#pickSlots').append(selectAC);
+
+        // display fullscreen modal with carousel functionality
+        $('#displayModal').modal('show');
+
+        // listener for next carousel screen
+        $(".pickAC").on("click", function() {
+            let numACslots = $(this).data("slot");
+            console.log(`Number of Slots Selected: ${numACslots}`);
+            displayInTable(numACslots);
+            // transition to Carousel #2 with product choices generated by func above  
+            $('.carousel').carousel(1);        
+        });
     });
 
     $("#chooseUnderTable").on("click", function() {
+        // resets and init
+        resetDivs();
         resetPrices();
         resetCustomerOrder();
         priceTally += underTablePrice;
-        console.log(`init underTable cost: $${priceTally}`);
+        customerOrder.push('Under-Table');
+        console.log(`test init Under-Table cost: $${priceTally}`);
+        console.log(`test init customerOrder is: ${customerOrder[0]}`);
 
-        $('#displayModal').modal('show'); 
+        // display AC selections on modal screen
+        const selectAC = "<div class='pickAC btn btn-lg ml-2 btn-success' data-slot='Two'>2-AC</div><div class='pickAC btn btn-lg ml-2 btn-success' data-slot='Three'>3-AC</div><div class='pickAC btn btn-lg ml-2 btn-success'  data-slot='Four'>4-AC</div><div class='pickAC btn btn-lg ml-2 btn-success'  data-slot='Five'>5-AC</div>";
+        $('#pickSlots').append(selectAC);
+
+        // display fullscreen modal with carousel functionality
+        $('#displayModal').modal('show');
+
+        // listener for next carousel screen
+        $(".pickAC").on("click", function() {
+            let numACslots = $(this).data("slot");
+            console.log(`Number of Slots Selected: ${numACslots}`);
+            displayUnderTable(numACslots);
+            // transition to Carousel #2 with product choices generated by func above  
+            $('.carousel').carousel(1);        
+        });
+
     });
 
     $("#chooseDualInTable").on("click", function() {
+        // resets and init
+        resetDivs();
         resetPrices();
         resetCustomerOrder();
-        priceTally += DualInTablePrice;
-        console.log(`init DualInTable cost: $${priceTally}`);
+        priceTally += dualInTablePrice;
+        customerOrder.push('Dual In-Table');
+        console.log(`test init Dual In-Table cost: $${priceTally}`);
+        console.log(`test init customerOrder is: ${customerOrder[0]}`);
 
-        $('#displayModal').modal('show'); 
+        // display AC selections on modal screen
+        const selectAC = "<div class='pickAC btn btn-lg ml-2 btn-success' data-slot='Two'>2-AC</div><div class='pickAC btn btn-lg ml-2 btn-success' data-slot='Three'>3-AC</div><div class='pickAC btn btn-lg ml-2 btn-success'  data-slot='Four'>4-AC</div>";
+        $('#pickSlots').append(selectAC);
+
+        // display fullscreen modal with carousel functionality
+        $('#displayModal').modal('show');
+
+        // listener for next carousel screen
+        $(".pickAC").on("click", function() {
+            let numACslots = $(this).data("slot");
+            console.log(`Number of Slots Selected: ${numACslots}`);
+            displayDualInTable(numACslots);
+            // transition to Carousel #2 with product choices generated by func above  
+            $('.carousel').carousel(1);        
+        });
     });
 
-
-
 });
-
-
-
-// const displayShit = (numSlots) => {
-        
-//     //below code copied from old js (ugh!):
-//     $.ajax({
-//         url: "./test.json",
-//         datatype: "JSON",
-//         type: "GET",
-//         cache: false
-//     }).then(function (res) {
-//         console.log("it worked!");
-//         $("#pickProduct").empty();
-
-//         switch (numSlots) {
-//             case "Two":
-//                 var boxHeader = $("<h4>");
-//                 boxHeader.html("Clamp-On 2-AC");
-//                 $("#pickProduct").append(boxHeader);
-
-//                 for (var i = 0; i < res.ClampOn.Two.Blank.length; i++) {
-//                     var btn = $("<button>");
-//                     var img = $("<img>");
-
-//                     btn.addClass("sampleBox");
-//                     img.addClass("imgCard");
-//                     img.attr("alt", "2-AC");
-//                     btn.attr("value", res.ClampOn.Two.Blank[i]);
-//                     img.attr("src", res.ClampOn.Two.Blank[i]);
-
-//                     btn.append(img);
-//                     $("#pickProduct").append(btn);
-//                 }
-//                 break;
-
-//             case "Three":
-//                 var boxHeader = $("<h4>");
-//                 boxHeader.html("Clamp-On 3-AC");
-//                 $("#pickProduct").append(boxHeader);
-
-//                 for (var i = 0; i < res.ClampOn.Three.Blank.length; i++) {
-//                     var btn = $("<button>");
-//                     var img = $("<img>");
-
-//                     btn.addClass("sampleBox");
-//                     img.addClass("imgCard");
-//                     img.attr("alt", "3-AC");
-//                     btn.attr("value", res.ClampOn.Three.Blank[i]);
-//                     img.attr("src", res.ClampOn.Three.Blank[i]);
-
-//                     btn.append(img);
-//                     $("#pickProduct").append(btn);
-//                 }
-//                 break;
-
-//             case "Four":
-//                 var boxHeader = $("<h4>");
-//                 boxHeader.html("Clamp-On 4-AC");
-//                 $("#pickProduct").append(boxHeader);
-
-//                 for (var i = 0; i < res.ClampOn.Four.Blank.length; i++) {
-//                     var btn = $("<button>");
-//                     var img = $("<img>");
-
-//                     btn.addClass("sampleBox");
-//                     img.addClass("imgCard");
-//                     img.attr("alt", "4-AC");
-//                     btn.attr("value", res.ClampOn.Four.Blank[i]);
-//                     img.attr("src", res.ClampOn.Four.Blank[i]);
-
-//                     btn.append(img);
-//                     $("#pickProduct").append(btn);
-//                 }
-//                 break;
-
-//             case "Five":
-//                 var boxHeader = $("<h4>");
-//                 boxHeader.html("Clamp-On 5-AC");
-//                 $("#pickProduct").append(boxHeader);
-
-//                 for (var i = 0; i < res.ClampOn.Five.Blank.length; i++) {
-//                     var btn = $("<button>");
-//                     var img = $("<img>");
-
-//                     btn.addClass("sampleBox");
-//                     img.addClass("imgCard");
-//                     img.attr("alt", "5-AC");
-//                     btn.attr("value", res.ClampOn.Five.Blank[i]);
-//                     img.attr("src", res.ClampOn.Five.Blank[i]);
-
-//                     btn.append(img);
-//                     $("#pickProduct").append(btn);
-//                 }
-//                 break;
-//             }
-// })
-// }
