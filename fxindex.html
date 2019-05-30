@@ -98,17 +98,16 @@
 <div class="modal fade bg-dark" id="displayModal" tabindex="-1" data-keyboard="false" data-backdrop="static">
     <div class="modal-dialog modal-dialog-centered modal-lg bg-none min-vh-80" role="document">
         <div class="modal-content rounded " style="background-color: rgba(0, 0, 0, 0.822)">            
-            <div class="modal-header">
-              <h1 class="modal-title fontone text-success text-center shadowed ">Symphony Configurator</h1><br>
+            <div class="modal-header bg-success">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/FSR Logo/fsr.png" width="100" height="70" class="d-inline-block align-top" alt="">    
+                </a>
+                <h1 class="modal-title fontone text-dark text-center shadowed ">Symphony Configurator</h1><br>   
             </div>   
 
-            <div class="modal-body text-center">
+            <div class="modal-body text-center mt-3">
                 <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
-                    <!-- <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    </ol>          -->
-                    
+
                     <div class="carousel-inner text-center">
 
                       <div id="info1" class="carousel-item text-white fonttwo active">
@@ -127,23 +126,26 @@
                             <br><br>
                       </div>
 
-
+                      <div id="info3" class="carousel-item text-white fonttwo">
+                            <div>
+                                <h3 class="float-center text-white fonttwo">You Selected The Following Product: </h3>
+                                <br />          
+                            </div>
+                            <div id="chosenProdDisp"></div><br />
+                            <div id="displayOptions">
+                                <h3><em></em></h3>
+                            </div>
+                            <br><br>
+                      </div>
 
                     </div>
-                        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>                    -->
+
                 </div>
 
             </div>
             
             <div class="modal-footer item-center">
-                <a href="#" id="resetBtn" class="btn btn-lg btn-outline-dark btn-block text-light fonttwo close" data-dismiss="modal"><h3>Go Back / Reset Choices</h3></a>
+                <a href="/" id="OLDresetBtn" class="btn btn-lg btn-outline-dark btn-block text-light fonttwo close" data-dismiss="modal"><h3>Go Back / Reset Choices</h3></a>
             </div>
         </div>
     </div>

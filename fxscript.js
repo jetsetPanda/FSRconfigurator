@@ -61,10 +61,9 @@ $(document).ready(function () {
         "Three": [ "./images/In-Table/SYM-IN-3AC-1CA-1SS-CCC/SYM-IN-3AC-1CA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-1CA-2SS-CCC/SYM-IN-3AC-1CA-2SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-1CA-VGA-1SS-CCC/SYM-IN-3AC-1CA-VGA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-2CA-1SS-CCC/SYM-IN-3AC-2CA-1SS-CCC_allwhite.png" ]
         ,
         "Four": [ "./images/In-Table/SYM-IN-4AC-1CA-1SS-CCC/SYM-IN-4AC-1CA-1SS-CCC_allwhite.png" ]
-      }
+    }
 
     const displayClampOnImgs = (numSlots) => {
-        let imglinks = '';
         switch (numSlots) {
             case "Two":
                 var boxHeader = $("<h4 class='fontone'>");
@@ -74,10 +73,10 @@ $(document).ready(function () {
                 for (var i = 0; i < clampOnImgs.Two.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", clampOnImgs.Two[i]);
+                    img.attr("data-imglink", clampOnImgs.Two[i]);
                     img.attr("src", clampOnImgs.Two[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -93,10 +92,10 @@ $(document).ready(function () {
                 for (var i = 0; i < clampOnImgs.Three.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", clampOnImgs.Three[i]);
+                    img.attr("data-imglink", clampOnImgs.Three[i]);
                     img.attr("src", clampOnImgs.Three[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -112,10 +111,10 @@ $(document).ready(function () {
                 for (var i = 0; i < clampOnImgs.Four.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", clampOnImgs.Four[i]);
+                    img.attr("data-imglink", clampOnImgs.Four[i]);
                     img.attr("src", clampOnImgs.Four[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -130,10 +129,10 @@ $(document).ready(function () {
                 for (var i = 0; i < clampOnImgs.Five.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", clampOnImgs.Five[i]);
+                    img.attr("data-imglink", clampOnImgs.Five[i]);
                     img.attr("src", clampOnImgs.Five [i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -153,10 +152,10 @@ $(document).ready(function () {
                 for (var i = 0; i < inTableImgs.Two.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", inTableImgs.Two[i]);
+                    img.attr("data-imglink", inTableImgs.Two[i]);
                     img.attr("src", inTableImgs.Two[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -172,10 +171,10 @@ $(document).ready(function () {
                 for (var i = 0; i < inTableImgs.Three.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", inTableImgs.Three[i]);
+                    img.attr("data-imglink", inTableImgs.Three[i]);
                     img.attr("src", inTableImgs.Three[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -191,10 +190,10 @@ $(document).ready(function () {
                 for (var i = 0; i < inTableImgs.Four.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", inTableImgs.Four[i]);
+                    img.attr("data-imglink", inTableImgs.Four[i]);
                     img.attr("src", inTableImgs.Four[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -215,10 +214,10 @@ $(document).ready(function () {
                 for (var i = 0; i < underTableImgs.Two.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", underTableImgs.Two[i]);
+                    img.attr("data-imglink", underTableImgs.Two[i]);
                     img.attr("src", underTableImgs.Two[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -234,10 +233,10 @@ $(document).ready(function () {
                 for (var i = 0; i < underTableImgs.Three.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", underTableImgs.Three[i]);
+                    img.attr("data-imglink", underTableImgs.Three[i]);
                     img.attr("src", underTableImgs.Three[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -253,10 +252,10 @@ $(document).ready(function () {
                 for (var i = 0; i < underTableImgs.Four.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", underTableImgs.Four[i]);
+                    img.attr("data-imglink", underTableImgs.Four[i]);
                     img.attr("src", underTableImgs.Four[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -271,10 +270,10 @@ $(document).ready(function () {
                 for (var i = 0; i < clampOnImgs.Five.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", underTableImgs.Five[i]);
+                    img.attr("data-imglink", underTableImgs.Five[i]);
                     img.attr("src", underTableImgs.Five [i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -294,10 +293,10 @@ $(document).ready(function () {
                 for (var i = 0; i < dualInTableImgs.Two.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", dualInTableImgs.Two[i]);
+                    img.attr("data-imglink", dualInTableImgs.Two[i]);
                     img.attr("src", dualInTableImgs.Two[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -313,10 +312,10 @@ $(document).ready(function () {
                 for (var i = 0; i < dualInTableImgs.Three.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", dualInTableImgs.Three[i]);
+                    img.attr("data-imglink", dualInTableImgs.Three[i]);
                     img.attr("src", dualInTableImgs.Three[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -332,10 +331,10 @@ $(document).ready(function () {
                 for (var i = 0; i < dualInTableImgs.Four.length; i++) {
                     var btn = $("<a>");
                     var img = $("<img>");
-                    img.addClass("imgCard");
+                    img.addClass("imgCard chosenProduct");
                     img.attr("alt", "2-AC");
                     btn.attr("href", "#");
-                    btn.attr("value", dualInTableImgs.Four[i]);
+                    img.attr("data-imglink", dualInTableImgs.Four[i]);
                     img.attr("src", dualInTableImgs.Four[i]);
                     img.attr("style", "width: 50%");
                     btn.append(img);
@@ -377,7 +376,20 @@ $(document).ready(function () {
             console.log(`Number of Slots Selected: ${numACslots}`);
             displayClampOnImgs(numACslots);
             // transition to Carousel #2 with product choices generated by func above  
-            $('.carousel').carousel(1);        
+            $('.carousel').carousel(1);
+            
+            // onclick listener on carousel #2: 
+            $(".chosenProduct").on("click", function() {
+                let chosenImg = $(this).data("imglink");
+                console.log("Product Clicked!");
+
+                const chosenDisp = `<img src='${chosenImg}' style='width: 80%'/>`;
+                $('#chosenProdDisp').append(chosenDisp);
+                // transition to Carousel #3
+                $('.carousel').carousel(2);
+            });            
+
+
         });
 
     });
@@ -405,7 +417,19 @@ $(document).ready(function () {
             console.log(`Number of Slots Selected: ${numACslots}`);
             displayInTable(numACslots);
             // transition to Carousel #2 with product choices generated by func above  
-            $('.carousel').carousel(1);        
+            $('.carousel').carousel(1);       
+            
+                        // onclick listener on carousel #2: 
+            $(".chosenProduct").on("click", function() {
+                let chosenImg = $(this).data("imglink");
+                console.log("Product Clicked!");
+
+                const chosenDisp = `<img src='${chosenImg}' style='width: 80%'/>`;
+                $('#chosenProdDisp').append(chosenDisp);
+                // transition to Carousel #3
+                $('.carousel').carousel(2);
+            });    
+
         });
     });
 
@@ -432,7 +456,19 @@ $(document).ready(function () {
             console.log(`Number of Slots Selected: ${numACslots}`);
             displayUnderTable(numACslots);
             // transition to Carousel #2 with product choices generated by func above  
-            $('.carousel').carousel(1);        
+            $('.carousel').carousel(1);
+            
+            // onclick listener on carousel #2: 
+            $(".chosenProduct").on("click", function() {
+                let chosenImg = $(this).data("imglink");
+                console.log("Product Clicked!");
+
+                const chosenDisp = `<img src='${chosenImg}' style='width: 80%'/>`;
+                $('#chosenProdDisp').append(chosenDisp);
+                // transition to Carousel #3
+                $('.carousel').carousel(2);
+            });    
+
         });
 
     });
@@ -460,7 +496,18 @@ $(document).ready(function () {
             console.log(`Number of Slots Selected: ${numACslots}`);
             displayDualInTable(numACslots);
             // transition to Carousel #2 with product choices generated by func above  
-            $('.carousel').carousel(1);        
+            $('.carousel').carousel(1);
+            
+            // onclick listener on carousel #2: 
+            $(".chosenProduct").on("click", function() {
+                let chosenImg = $(this).data("imglink");
+                console.log("Product Clicked!");
+
+                const chosenDisp = `<img src='${chosenImg}' style='width: 80%'/>`;
+                $('#chosenProdDisp').append(chosenDisp);
+                // transition to Carousel #3
+                $('.carousel').carousel(2);
+            });    
         });
     });
 
