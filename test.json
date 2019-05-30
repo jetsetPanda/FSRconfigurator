@@ -1,0 +1,96 @@
+{
+  "ClampOn": {
+    "Two": {
+      "Blank": [ "./images/Clamp-On/SYM-CL-2AC-1CA-1SS-ABB/SYM-CL-2AC-1CA-1SS-ABB-empty_allwhite.png", "./images/Clamp-On/SYM-CL-2AC-1CA-1VGA-2SS-CCC/SYM-CL-2AC-1CA-1VGA-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-2AC-1CA-1XLR-2SS-CCC/SYM-CL-2AC-1CA-1XLR-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-2AC-1CA-2SS-CCC/SYM-CL-2AC-1CA-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1SS-CCC/SYM-CL-2AC-2CA-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1VGA-2SS-CCC/SYM-CL-2AC-2CA-1VGA-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1XLR-2SS-CCC/SYM-CL-2AC-2CA-1XLR-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-2AC-2CA-2SS-CCC/SYM-CL-2AC-2CA-2SS-CCC_allwhite.png" ],
+      "White": [ "./images/Clamp-On/SYM-CL-2AC-1CA-1SS-ABB/SYM-CL-2AC-1CA-1SS-ABB-empty_white.png", "./images/Clamp-On/SYM-CL-2AC-1CA-1VGA-2SS-CCC/SYM-CL-2AC-1CA-1VGA-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-2AC-1CA-1XLR-2SS-CCC/SYM-CL-2AC-1CA-1XLR-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-2AC-1CA-2SS-CCC/SYM-CL-2AC-1CA-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1SS-CCC/SYM-CL-2AC-2CA-1SS-CCC_white.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1VGA-2SS-CCC/SYM-CL-2AC-2CA-1VGA-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1XLR-2SS-CCC/SYM-CL-2AC-2CA-1XLR-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-2AC-2CA-2SS-CCC/SYM-CL-2AC-2CA-2SS-CCC_white.png" ],
+      "Black": [ "./images/Clamp-On/SYM-CL-2AC-1CA-1SS-ABB/SYM-CL-2AC-1CA-1SS-ABB-empty_black.png", "./images/Clamp-On/SYM-CL-2AC-1CA-1VGA-2SS-CCC/SYM-CL-2AC-1CA-1VGA-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-2AC-1CA-1XLR-2SS-CCC/SYM-CL-2AC-1CA-1XLR-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-2AC-1CA-2SS-CCC/SYM-CL-2AC-1CA-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1SS-CCC/SYM-CL-2AC-2CA-1SS-CCC_black.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1VGA-2SS-CCC/SYM-CL-2AC-2CA-1VGA-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-2AC-2CA-1XLR-2SS-CCC/SYM-CL-2AC-2CA-1XLR-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-2AC-2CA-2SS-CCC/SYM-CL-2AC-2CA-2SS-CCC_black.png" ]
+    },
+    "Three": {
+      "Blank": [ "./images/Clamp-On/SYM-CL-3AC-1CA-1SS-CCC/SYM-CL-3AC-1CA-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-3AC-1CA-1VGA-2SS-CCC/SYM-CL-3AC-1CA-1VGA-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-3AC-1CA-2SS-CCC/SYM-CL-3AC-1CA-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-3AC-2CA-1SS-CCC/SYM-CL-3AC-2CA-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-3AC-2CA-2SS-CCC/SYM-CL-3AC-2CA-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-3AC-1CA-1XLR-2SS-CCC/SYM-CL-3AC-1CA-1XLR-2SS-CCC_allwhite.png" ],
+      "White": [ "./images/Clamp-On/SYM-CL-3AC-1CA-1SS-CCC/SYM-CL-3AC-1CA-1SS-CCC_white.png", "./images/Clamp-On/SYM-CL-3AC-1CA-1VGA-2SS-CCC/SYM-CL-3AC-1CA-1VGA-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-3AC-1CA-2SS-CCC/SYM-CL-3AC-1CA-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-3AC-2CA-1SS-CCC/SYM-CL-3AC-2CA-1SS-CCC_white.png", "./images/Clamp-On/SYM-CL-3AC-2CA-2SS-CCC/SYM-CL-3AC-2CA-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-3AC-1CA-1XLR-2SS-CCC/SYM-CL-3AC-1CA-1XLR-2SS-CCC_white.png" ],
+      "Black": [ "./images/Clamp-On/SYM-CL-3AC-1CA-1SS-CCC/SYM-CL-3AC-1CA-1SS-CCC_black.png", "./images/Clamp-On/SYM-CL-3AC-1CA-1VGA-2SS-CCC/SYM-CL-3AC-1CA-1VGA-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-3AC-1CA-2SS-CCC/SYM-CL-3AC-1CA-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-3AC-2CA-1SS-CCC/SYM-CL-3AC-2CA-1SS-CCC_black.png", "./images/Clamp-On/SYM-CL-3AC-2CA-2SS-CCC/SYM-CL-3AC-2CA-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-3AC-1CA-1XLR-2SS-CCC/SYM-CL-3AC-1CA-1XLR-2SS-CCC_black.png" ]
+    },
+    "Four": {
+      "Blank": [ "./images/Clamp-On/SYM-CL-4AC-1CA-1SS-CCC/SYM-CL-4AC-1CA-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-4AC-1CA-2SS-CCC/SYM-CL-4AC-1CA-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-4AC-1SS-CCC/SYM-CL-4AC-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-4AC-1VGA-2SS-CCC/SYM-CL-4AC-1VGA-2SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-4AC-1XLR-2SS-CCC/SYM-CL-4AC-1XLR-2SS-CCC_allwhite.png" ],
+      "White": [ "./images/Clamp-On/SYM-CL-4AC-1CA-1SS-CCC/SYM-CL-4AC-1CA-1SS-CCC_white.png", "./images/Clamp-On/SYM-CL-4AC-1CA-2SS-CCC/SYM-CL-4AC-1CA-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-4AC-1SS-CCC/SYM-CL-4AC-1SS-CCC_white.png", "./images/Clamp-On/SYM-CL-4AC-1VGA-2SS-CCC/SYM-CL-4AC-1VGA-2SS-CCC_white.png", "./images/Clamp-On/SYM-CL-4AC-1XLR-2SS-CCC/SYM-CL-4AC-1XLR-2SS-CCC_white.png" ],
+      "Black": [ "./images/Clamp-On/SYM-CL-4AC-1CA-1SS-CCC/SYM-CL-4AC-1CA-1SS-CCC_black.png", "./images/Clamp-On/SYM-CL-4AC-1CA-2SS-CCC/SYM-CL-4AC-1CA-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-4AC-1SS-CCC/SYM-CL-4AC-1SS-CCC_black.png", "./images/Clamp-On/SYM-CL-4AC-1VGA-2SS-CCC/SYM-CL-4AC-1VGA-2SS-CCC_black.png", "./images/Clamp-On/SYM-CL-4AC-1XLR-2SS-CCC/SYM-CL-4AC-1XLR-2SS-CCC_black.png" ]
+    },
+    "Five": {
+      "Blank": [ "./images/Clamp-On/SYM-CL-5AC-1SS-CCC/SYM-CL-5AC-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-5AC-2CA-1SS-CCC/SYM-CL-5AC-2CA-1SS-CCC_allwhite.png", "./images/Clamp-On/SYM-CL-5AC-2SS-CCC/SYM-CL-5AC-2SS-CCC_allwhite.png" ],
+      "White": [ "./images/Clamp-On/SYM-CL-5AC-1SS-CCC/SYM-CL-5AC-1SS-CCC_white.png", "./images/Clamp-On/SYM-CL-5AC-2CA-1SS-CCC/SYM-CL-5AC-2CA-1SS-CCC_white.png", "./images/Clamp-On/SYM-CL-5AC-2SS-CCC/SYM-CL-5AC-2SS-CCC_white.png" ],
+      "Black": [ "./images/Clamp-On/SYM-CL-5AC-1SS-CCC/SYM-CL-5AC-1SS-CCC_black.png", "./images/Clamp-On/SYM-CL-5AC-2CA-1SS-CCC/SYM-CL-5AC-2CA-1SS-CCC_black.png", "./images/Clamp-On/SYM-CL-5AC-2SS-CCC/SYM-CL-5AC-2SS-CCC_black.png" ]
+    }
+  },
+
+  "DualInTable": {
+    "Two": {
+      "Blank": [ "./images/Dual-In-Table/SYM-DIN-2AC-1CA-1VGA-1SS-CCC/SYM-DIN-2AC-1CA-1VGA-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-2AC-1CA-2SS-CCC/SYM-DIN-2AC-1CA-2SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-2AC-1CA-1SS-CCC/SYM-DIN-2AC-1CA-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-2AC-1SS-CCC/SYM-DIN-2AC-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-2AC-2CA-1SS-CCC/SYM-DIN-2AC-2CA-1SS-CCC_allwhite.png" ],
+      "White": [ "./images/Dual-In-Table/SYM-DIN-2AC-1CA-1VGA-1SS-CCC/SYM-DIN-2AC-1CA-1VGA-1SS-CCC_white.png", "./images/Dual-In-Table/SYM-DIN-2AC-1CA-2SS-CCC/SYM-DIN-2AC-1CA-2SS-CCC_white.png", "./images/Dual-In-Table/SYM-DIN-2AC-1CA-1SS-CCC/SYM-DIN-2AC-1CA-1SS-CCC_white.png", "./images/Dual-In-Table/SYM-DIN-2AC-1SS-CCC/SYM-DIN-2AC-1SS-CCC_white.png", "./images/Dual-In-Table/SYM-DIN-2AC-2CA-1SS-CCC/SYM-DIN-2AC-2CA-1SS-CCC_white.png" ],
+      "Black": [ "./images/Dual-In-Table/SYM-DIN-2AC-1CA-1VGA-1SS-CCC/SYM-DIN-2AC-1CA-1VGA-1SS-CCC_black.png", "./images/Dual-In-Table/SYM-DIN-2AC-1CA-2SS-CCC/SYM-DIN-2AC-1CA-2SS-CCC_black.png", "./images/Dual-In-Table/SYM-DIN-2AC-1CA-1SS-CCC/SYM-DIN-2AC-1CA-1SS-CCC_black.png", "./images/Dual-In-Table/SYM-DIN-2AC-1SS-CCC/SYM-DIN-2AC-1SS-CCC_black.png", "./images/Dual-In-Table/SYM-DIN-2AC-2CA-1SS-CCC/SYM-DIN-2AC-2CA-1SS-CCC_black.png" ]
+    },
+    "Three": {
+      "Blank": [ "./images/Dual-In-Table/SYM-DIN-3AC-1CA-1SS-CCC/SYM-DIN-3AC-1CA-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-3AC-1CA-2SS-CCC/SYM-DIN-3AC-1CA-2SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-3AC-1CA-VGA-1SS-CCC/SYM-DIN-3AC-1CA-VGA-1SS-CCC_allwhite.png", "./images/Dual-In-Table/SYM-DIN-3AC-2CA-1SS-CCC/SYM-DIN-3AC-2CA-1SS-CCC_allwhite.png" ],
+      "White": [ "./images/Dual-In-Table/SYM-DIN-3AC-1CA-1SS-CCC/SYM-DIN-3AC-1CA-1SS-CCC_white.png", "./images/Dual-In-Table/SYM-DIN-3AC-1CA-2SS-CCC/SYM-DIN-3AC-1CA-2SS-CCC_white.png", "./images/Dual-In-Table/SYM-DIN-3AC-1CA-VGA-1SS-CCC/SYM-DIN-3AC-1CA-VGA-1SS-CCC_white.png", "./images/Dual-In-Table/SYM-DIN-3AC-2CA-1SS-CCC/SYM-DIN-3AC-2CA-1SS-CCC_white.png" ],
+      "Black": [ "./images/Dual-In-Table/SYM-DIN-3AC-1CA-1SS-CCC/SYM-DIN-3AC-1CA-1SS-CCC_black.png", "./images/Dual-In-Table/SYM-DIN-3AC-1CA-2SS-CCC/SYM-DIN-3AC-1CA-2SS-CCC_black.png", "./images/Dual-In-Table/SYM-DIN-3AC-1CA-VGA-1SS-CCC/SYM-DIN-3AC-1CA-VGA-1SS-CCC_black.png", "./images/Dual-In-Table/SYM-DIN-3AC-2CA-1SS-CCC/SYM-DIN-3AC-2CA-1SS-CCC_black.png" ]
+    },
+    "Four": {
+      "Blank": [ "./images/Dual-In-Table/SYM-DIN-4AC-1CA-1SS-CCC/SYM-DIN-4AC-1CA-1SS-CCC_allwhite.png" ],
+      "White": [ "./images/Dual-In-Table/SYM-DIN-4AC-1CA-1SS-CCC/SYM-DIN-4AC-1CA-1SS-CCC_white.png" ],
+      "Black": [ "./images/Dual-In-Table/SYM-DIN-4AC-1CA-1SS-CCC/SYM-DIN-4AC-1CA-1SS-CCC_black.png" ]
+    }
+  },
+
+  "UnderTable": {
+    "Two": {
+      "Blank": [ "./images/Under-Table/SYM-UT-2AC-1CA-1SS-CCC/SYM-UT-2AC-1CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-1CA-1VGA-2SS-CCC/SYM-CL-2AC-1CA-1VGA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-1CA-1XLR-2SS-CCC/SYM-UT-2AC-1CA-1XLR-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-1CA-2SS-CCC/SYM-UT-2AC-1CA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-2CA-1SS-CCC/SYM-UT-2AC-2CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-2CA-1VGA-2SS-CCC/SYM-UT-2AC-2CA-1VGA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-2CA-1XLR-2SS-CCC/SYM-CL-2AC-2CA-1XLR-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-2AC-2CA-2SS-CCC/SYM-UT-2AC-2CA-2SS-CCC_allwhite.png" ],
+      "White": [ "./images/Under-Table/SYM-UT-2AC-1CA-1SS-CCC/SYM-UT-2AC-1CA-1SS-CCC_white.png", "./images/Under-Table/SYM-UT-2AC-1CA-1VGA-2SS-CCC/SYM-CL-2AC-1CA-1VGA-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-2AC-1CA-1XLR-2SS-CCC/SYM-UT-2AC-1CA-1XLR-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-2AC-1CA-2SS-CCC/SYM-UT-2AC-1CA-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-2AC-2CA-1SS-CCC/SYM-UT-2AC-2CA-1SS-CCC_white.png", "./images/Under-Table/SYM-UT-2AC-2CA-1VGA-2SS-CCC/SYM-UT-2AC-2CA-1VGA-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-2AC-2CA-1XLR-2SS-CCC/SYM-CL-2AC-2CA-1XLR-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-2AC-2CA-2SS-CCC/SYM-UT-2AC-2CA-2SS-CCC_white.png" ],
+      "Black": [ "./images/Under-Table/SYM-UT-2AC-1CA-1SS-CCC/SYM-UT-2AC-1CA-1SS-CCC_black.png", "./images/Under-Table/SYM-UT-2AC-1CA-1VGA-2SS-CCC/SYM-CL-2AC-1CA-1VGA-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-2AC-1CA-1XLR-2SS-CCC/SYM-UT-2AC-1CA-1XLR-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-2AC-1CA-2SS-CCC/SYM-UT-2AC-1CA-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-2AC-2CA-1SS-CCC/SYM-UT-2AC-2CA-1SS-CCC_black.png", "./images/Under-Table/SYM-UT-2AC-2CA-1VGA-2SS-CCC/SYM-UT-2AC-2CA-1VGA-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-2AC-2CA-1XLR-2SS-CCC/SYM-CL-2AC-2CA-1XLR-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-2AC-2CA-2SS-CCC/SYM-UT-2AC-2CA-2SS-CCC_black.png" ]
+    },
+    "Three": {
+      "Blank": [ "./images/Under-Table/SYM-UT-3AC-1CA-1SS-CCC/SYM-UT-3AC-1CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-1CA-1VGA-2SS-CCC/SYM-UT-3AC-1CA-1VGA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-1CA-1XLR-2SS-CCC/SYM-UT-3AC-1CA-1XLR-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-1CA-2SS-CCC/SYM-UT-3AC-1CA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-2CA-1SS-CCC/SYM-UT-3AC-2CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-3AC-2CA-2SS-CCC/SYM-UT-3AC-2CA-2SS-CCC_allwhite.png" ],
+      "White": [ "./images/Under-Table/SYM-UT-3AC-1CA-1SS-CCC/SYM-UT-3AC-1CA-1SS-CCC_white.png", "./images/Under-Table/SYM-UT-3AC-1CA-1VGA-2SS-CCC/SYM-UT-3AC-1CA-1VGA-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-3AC-1CA-1XLR-2SS-CCC/SYM-UT-3AC-1CA-1XLR-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-3AC-1CA-2SS-CCC/SYM-UT-3AC-1CA-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-3AC-2CA-1SS-CCC/SYM-UT-3AC-2CA-1SS-CCC_white.png", "./images/Under-Table/SYM-UT-3AC-2CA-2SS-CCC/SYM-UT-3AC-2CA-2SS-CCC_white.png" ],
+      "Black": [ "./images/Under-Table/SYM-UT-3AC-1CA-1SS-CCC/SYM-UT-3AC-1CA-1SS-CCC_black.png", "./images/Under-Table/SYM-UT-3AC-1CA-1VGA-2SS-CCC/SYM-UT-3AC-1CA-1VGA-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-3AC-1CA-1XLR-2SS-CCC/SYM-UT-3AC-1CA-1XLR-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-3AC-1CA-2SS-CCC/SYM-UT-3AC-1CA-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-3AC-2CA-1SS-CCC/SYM-UT-3AC-2CA-1SS-CCC_black.png", "./images/Under-Table/SYM-UT-3AC-2CA-2SS-CCC/SYM-UT-3AC-2CA-2SS-CCC_black.png" ]
+    },
+    "Four": {
+      "Blank": [ "./images/Under-Table/SYM-UT-4AC-1CA-1SS-CCC/SYM-UT-4AC-1CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-4AC-1CA-2SS-CCC/SYM-UT-4AC-1CA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-4AC-1SS-CCC/SYM-UT-4AC-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-4AC-1VGA-2SS-CCC/SYM-UT-4AC-1VGA-2SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-4AC-1XLR-2SS-CCC/SYM-UT-4AC-1XLR-2SS-CCC_allwhite.png" ],
+      "White": [ "./images/Under-Table/SYM-UT-4AC-1CA-1SS-CCC/SYM-UT-4AC-1CA-1SS-CCC_white.png", "./images/Under-Table/SYM-UT-4AC-1CA-2SS-CCC/SYM-UT-4AC-1CA-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-4AC-1SS-CCC/SYM-UT-4AC-1SS-CCC_white.png", "./images/Under-Table/SYM-UT-4AC-1VGA-2SS-CCC/SYM-UT-4AC-1VGA-2SS-CCC_white.png", "./images/Under-Table/SYM-UT-4AC-1XLR-2SS-CCC/SYM-UT-4AC-1XLR-2SS-CCC_white.png" ],
+      "Black": [ "./images/Under-Table/SYM-UT-4AC-1CA-1SS-CCC/SYM-UT-4AC-1CA-1SS-CCC_black.png", "./images/Under-Table/SYM-UT-4AC-1CA-2SS-CCC/SYM-UT-4AC-1CA-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-4AC-1SS-CCC/SYM-UT-4AC-1SS-CCC_black.png", "./images/Under-Table/SYM-UT-4AC-1VGA-2SS-CCC/SYM-UT-4AC-1VGA-2SS-CCC_black.png", "./images/Under-Table/SYM-UT-4AC-1XLR-2SS-CCC/SYM-UT-4AC-1XLR-2SS-CCC_black.png" ]
+    },
+    "Five": {
+      "Blank": [ "./images/Under-Table/SYM-UT-5AC-1SS-CCC/SYM-UT-5AC-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-5AC-2CA-1SS-CCC/SYM-UT-5AC-2CA-1SS-CCC_allwhite.png", "./images/Under-Table/SYM-UT-5AC-2SS-CCC/SYM-UT-5AC-2SS-CCC_allwhite.png" ],
+      "White": [ "./images/Under-Table/SYM-UT-5AC-1SS-CCC/SYM-UT-5AC-1SS-CCC_white.png", "./images/Under-Table/SYM-UT-5AC-2CA-1SS-CCC/SYM-UT-5AC-2CA-1SS-CCC_white.png", "./images/Under-Table/SYM-UT-5AC-2SS-CCC/SYM-UT-5AC-2SS-CCC_white.png" ],
+      "Black": [ "./images/Under-Table/SYM-UT-5AC-1SS-CCC/SYM-UT-5AC-1SS-CCC_black.png", "./images/Under-Table/SYM-UT-5AC-2CA-1SS-CCC/SYM-UT-5AC-2CA-1SS-CCC_black.png", "./images/Under-Table/SYM-UT-5AC-2SS-CCC/SYM-UT-5AC-2SS-CCC_black.png" ]
+    }
+  },
+
+  "InTable": {
+    "Two": {
+      "Blank": [ "./images/In-Table/SYM-IN-2AC-1CA-1VGA-1SS-CCC/SYM-IN-2AC-1CA-1VGA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-2AC-1CA-2SS-CCC/SYM-IN-2AC-1CA-2SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-2AC-1CA-1SS-CCC/SYM-IN-2AC-1CA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-2AC-1SS-CCC/SYM-IN-2AC-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-2AC-2CA-1SS-CCC/SYM-IN-2AC-2CA-1SS-CCC_allwhite.png" ],
+      "White": [ "./images/In-Table/SYM-IN-2AC-1CA-1VGA-1SS-CCC/SYM-IN-2AC-1CA-1VGA-1SS-CCC_white.png", "./images/In-Table/SYM-IN-2AC-1CA-2SS-CCC/SYM-IN-2AC-1CA-2SS-CCC_white.png", "./images/In-Table/SYM-IN-2AC-1CA-1SS-CCC/SYM-IN-2AC-1CA-1SS-CCC_white.png", "./images/In-Table/SYM-IN-2AC-1SS-CCC/SYM-IN-2AC-1SS-CCC_white.png", "./images/In-Table/SYM-IN-2AC-2CA-1SS-CCC/SYM-IN-2AC-2CA-1SS-CCC_white.png" ],
+      "Black": [ "./images/In-Table/SYM-IN-2AC-1CA-1VGA-1SS-CCC/SYM-IN-2AC-1CA-1VGA-1SS-CCC_black.png", "./images/In-Table/SYM-IN-2AC-1CA-2SS-CCC/SYM-IN-2AC-1CA-2SS-CCC_black.png", "./images/In-Table/SYM-IN-2AC-1CA-1SS-CCC/SYM-IN-2AC-1CA-1SS-CCC_black.png", "./images/In-Table/SYM-IN-2AC-1SS-CCC/SYM-IN-2AC-1SS-CCC_black.png", "./images/In-Table/SYM-IN-2AC-2CA-1SS-CCC/SYM-IN-2AC-2CA-1SS-CCC_black.png" ]
+    },
+    "Three": {
+      "Blank": [ "./images/In-Table/SYM-IN-3AC-1CA-1SS-CCC/SYM-IN-3AC-1CA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-1CA-2SS-CCC/SYM-IN-3AC-1CA-2SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-1CA-VGA-1SS-CCC/SYM-IN-3AC-1CA-VGA-1SS-CCC_allwhite.png", "./images/In-Table/SYM-IN-3AC-2CA-1SS-CCC/SYM-IN-3AC-2CA-1SS-CCC_allwhite.png" ],
+      "White": [ "./images/In-Table/SYM-IN-3AC-1CA-1SS-CCC/SYM-IN-3AC-1CA-1SS-CCC_white.png", "./images/In-Table/SYM-IN-3AC-1CA-2SS-CCC/SYM-IN-3AC-1CA-2SS-CCC_white.png", "./images/In-Table/SYM-IN-3AC-1CA-VGA-1SS-CCC/SYM-IN-3AC-1CA-VGA-1SS-CCC_white.png", "./images/In-Table/SYM-IN-3AC-2CA-1SS-CCC/SYM-IN-3AC-2CA-1SS-CCC_white.png" ],
+      "Black": [ "./images/In-Table/SYM-IN-3AC-1CA-1SS-CCC/SYM-IN-3AC-1CA-1SS-CCC_black.png", "./images/In-Table/SYM-IN-3AC-1CA-2SS-CCC/SYM-IN-3AC-1CA-2SS-CCC_black.png", "./images/In-Table/SYM-IN-3AC-1CA-VGA-1SS-CCC/SYM-IN-3AC-1CA-VGA-1SS-CCC_black.png", "./images/In-Table/SYM-IN-3AC-2CA-1SS-CCC/SYM-IN-3AC-2CA-1SS-CCC_black.png" ]
+    },
+    "Four": {
+      "Blank": [ "./images/In-Table/SYM-IN-4AC-1CA-1SS-CCC/SYM-IN-4AC-1CA-1SS-CCC_allwhite.png" ],
+      "White": [ "./images/In-Table/SYM-IN-4AC-1CA-1SS-CCC/SYM-IN-4AC-1CA-1SS-CCC_white.png" ],
+      "Black": [ "./images/In-Table/SYM-IN-4AC-1CA-1SS-CCC/SYM-IN-4AC-1CA-1SS-CCC_black.png" ]
+    }
+  },
+
+  "Snap": {
+    "Blank": [ "./images/Snap/SS-CAT5e-X/SS-CAT5e-X_allwhtie.png", "./images/Snap/SS-CAT6-X/SS-CAT6-X_allwhite.png", "./images/Snap/SS-HDMI-X/SS-HDMI-X_allwhite.png", "./images/Snap/SS-RJ45-X/SS-RJ45-X_allwhite.png", "./images/Snap/SS-RJCAT6-X/SS-RJCAT6-X_allwhite.png", "./images/Snap/SS-SCAT6A/SS-SCAT6A_allwhite.png", "./images/Snap/SS-USBA-X/SS-USBA-X_allwhite.png" ],
+    "White": [ "./images/Snap/SS-CAT5e-X/SS-CAT5e-X_white.png", "./images/Snap/SS-CAT6-X/SS-CAT6-X_white.png", "./images/Snap/SS-HDMI-X/SS-HDMI-X_white.png", "./images/Snap/SS-RJ45-X/SS-RJ45-X_white.png", "./images/Snap/SS-RJCAT6-X/SS-RJCAT6-X_white.png", "./images/Snap/SS-SCAT6A/SS-SCAT6A_white.png", "./images/Snap/SS-USBA-X/SS-USBA-X_white.png" ],
+    "Black": [ "./images/Snap/SS-CAT5e-X/SS-CAT5e-X_black.png", "./images/Snap/SS-CAT6-X/SS-CAT6-X_black.png", "./images/Snap/SS-HDMI-X/SS-HDMI-X-black.png", "./images/Snap/SS-RJ45-X/SS-RJ45-X_black.png", "./images/Snap/SS-RJCAT6-X/SS-RJCAT6-X_black.png", "./images/Snap/SS-SCAT6A/SS-SCAT6A_black.png", "./images/Snap/SS-USBA-X/SS-USBA-X_black.png" ]
+  },
+
+  "Slot": {
+    "Blank": [ "./images/Slot/blank_allwhite.png", "./images/Slot/oneSlot_allwhite.png", "./images/Slot/twoSlot_allwhite.png" ],
+    "White": [ "./images/Slot/blank_white.png", "./images/Slot/oneSlot_white.png", "./images/Slot/twoSlot_white.png" ],
+    "Black": [ "./images/Slot/blank_black.png", "./images/Slot/oneSlot_black.png", "./images/Slot/twoSlot_black.png" ],
+    "Drag": [ "./images/Slot/Drag-Insert-here.png" ]
+  }
+}

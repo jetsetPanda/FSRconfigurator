@@ -1,0 +1,716 @@
+{
+  "SYM-CL-2AC-1CA-1SS-ABB": {
+    "oneSnapTop": 238.18,
+    "SnapLeft": 1027.73,
+    "twoSnapTop": 206.18,
+    "twoSnapBottom": 272.18,
+    "topSlot": 191.18,
+    "leftSlot": 1011.12,
+    "SlotCount": 1,
+    "price": 154.00
+  },
+
+  "SYM-CL-2AC-1CA-ABB": {
+    "price": 145.00,
+    "SnapCount": 0
+  },
+
+  "SYM-CL-2AC-1CA-AWW": {
+    "price": 145.00,
+    "SnapCount": 0
+  },
+
+  "SYM-CL-2AC-1CA-1SS-AWW": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 154.00,
+    "SnapCount": 2
+  },
+
+  "SYM-CL-2AC-1CA-1VGA-2SS-CCC": {
+    "SOOneSnapTop": 238.18,
+    "SOTwoSnapTop": 206.18,
+    "SOTwoSnapBottom": 272.18,
+    "SOSnapLeft": 1048.73,
+    "topSlot": 191.18,
+    "leftSlotOne": 1032.73,
+    "leftSlottwo": 1107.73,
+    "SlotCount": 2,
+    "price": 172.00
+  },
+
+  "SYM-CL-2AC-1CA-1XLR-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1050.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1124.73,
+    "price": 172.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-2AC-1CA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 990.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1065.73,
+    "price": 163.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-2AC-2CA-CCC": {
+    "price": 170.00,
+    "SnapCount": 0
+  },
+
+  "SYM-CL-2AC-2CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1082.73,
+    "bottomSnapTop": 266.64,
+    "price": 179.00,
+    "SnapCount": 2
+  },
+
+  "SYM-CL-2AC-2CA-1VGA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1100.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1175.73,
+    "price": 197.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-2AC-2CA-1XLR-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1101.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1176.48,
+    "price": 197.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-2AC-2CA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1047.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1122.73,
+    "price": 188.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-3AC-1CA-CCC": {
+    "price": 162.00,
+    "SnapCount": 0
+  },
+
+  "SYM-CL-3AC-1CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1083.73,
+    "bottomSnapTop": 266.64,
+    "price": 171.00,
+    "SnapCount": 2
+  },
+
+  "SYM-CL-3AC-1CA-1VGA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1103.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1177.73,
+    "price": 189.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-3AC-1CA-1XLR-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1101.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1176.73,
+    "price": 189.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-3AC-1CA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1045.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1120.73,
+    "price": 180.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-3AC-2CA-CCC": {
+    "price": 187.00,
+    "SnapCount": 0
+  },
+
+  "SYM-CL-3AC-2CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1139.73,
+    "bottomSnapTop": 266.64,
+    "price": 196.00,
+    "SnapCount": 2
+  },
+
+  "SYM-CL-3AC-2CA-2SS-CCC": {
+    "topSnapTop": 201.64,
+    "topSnapLeft": 1103.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1178.73,
+    "price": 205.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-4AC-1CA-CCC": {
+    "price": 179.00,
+    "SnapCount": 0
+  },
+
+  "SYM-CL-4AC-1CA-1SS-CCC": {
+    "topSnapTop": 201,
+    "topSnapLeft": 1140.01,
+    "bottomSnapTop": 267,
+    "price": 188.00,
+    "SnapCount": 2
+  },
+
+  "SYM-CL-4AC-1CA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1102.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1177.73,
+    "price": 197.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-4AC-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1083.73,
+    "bottomSnapTop": 266.64,
+    "price": 163.00,
+    "SnapCount": 2
+  },
+
+  "SYM-CL-4AC-1VGA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1101.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1176.73,
+    "price": 181.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-4AC-1XLR-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1101.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1175.73,
+    "price": 181.00,
+    "SnapCount": 4
+  },
+
+  "SYM-CL-5AC-CCC": {
+    "price": 171.00,
+    "SnapCount": 0
+  },
+
+  "SYM-CL-5AC-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1138.73,
+    "bottomSnapTop": 266.64,
+    "price": 180.00,
+    "SnapCount": 2
+  },
+
+  "SYM-CL-5AC-2CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1251.73,
+    "bottomSnapTop": 266.64,
+    "price": 230.00,
+    "SnapCount": 2
+  },
+
+  "SYM-CL-5AC-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 1102.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 1176.73,
+    "price": 189.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-2AC-1CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 145.00,
+    "SnapCount": 0
+  },
+
+  "SYM-UT-2AC-1CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 701.73,
+    "bottomSnapTop": 266.64,
+    "price": 154.00,
+    "SnapCount": 2
+  },
+
+  "SYM-UT-2AC-1CA-1VGA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 607.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 681.73,
+    "price": 172.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-2AC-1CA-1XLR-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 604.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 679.73,
+    "price": 172.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-2AC-1CA-2SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 163.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-2AC-2CA-CCC": {
+    "price": 170.00,
+    "SnapCount": 0
+  },
+
+  "SYM-UT-2AC-2CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 646.73,
+    "bottomSnapTop": 266.64,
+    "price": 179.00,
+    "SnapCount": 2
+  },
+
+  "SYM-UT-2AC-2CA-1VGA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 553.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 628.73,
+    "price": 197.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-2AC-2CA-1XLR-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 553.73,
+    "bottomSnapTop": 226.64,
+    "bottomSnapLeft": 627.73,
+    "price": 197.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-2AC-2CA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 688.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 683.73,
+    "price": 188.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-3AC-1CA-CCC": {
+    "price": 162.00,
+    "SnapCount": 0
+  },
+
+
+  "SYM-UT-3AC-1CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 647.73,
+    "bottomSnapTop": 266.64,
+    "price": 171.00,
+    "SnapCount": 2
+  },
+
+  "SYM-UT-3AC-1CA-1VGA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 553.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 628.73,
+    "price": 189.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-3AC-1CA-1XLR-2SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 189.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-3AC-1CA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 608.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 683.73,
+    "price": 180.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-3AC-2CA-CCC": {
+    "price": 187.00,
+    "SnapCount": 0
+  },
+
+  "SYM-UT-3AC-2CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 590.73,
+    "bottomSnapTop": 266.64,
+    "price": 196.00,
+    "SnapCount": 2
+  },
+
+  "SYM-UT-3AC-2CA-2SS-CCC": {
+    "topSnapTop": 201.64,
+    "topSnapLeft": 553.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 627.73,
+    "price": 205.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-4AC-1CA-SSS": {
+    "price": 179.00,
+    "SnapCount": 0
+  },
+
+  "SYM-UT-4AC-1CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 589.73,
+    "bottomSnapTop": 266.64,
+    "price": 188.00,
+    "SnapCount": 2
+  },
+
+  "SYM-UT-4AC-1CA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 552.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 627.73,
+    "price": 197.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-4AC-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 647.73,
+    "bottomSnapTop": 266.64,
+    "price": 163.00,
+    "SnapCount": 2
+  },
+
+  "SYM-UT-4AC-1VGA-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 552.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 627.73,
+    "price": 181.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-4AC-1XLR-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 553.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 627.73,
+    "price": 181.00,
+    "SnapCount": 4
+  },
+
+  "SYM-UT-5AC-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 591.73,
+    "bottomSnapTop": 266.64,
+    "price": 171.00,
+    "SnapCount": 0
+  },
+
+  "SYM-UT-5AC-2CA-1SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 477.73,
+    "bottomSnapTop": 266.64,
+    "price": 180.00,
+    "SnapCount": 2
+  },
+
+  "SYM-UT-5AC-CCC": {
+    "price": 230.00,
+    "SnapCount": 2
+  },
+
+  "SYM-UT-5AC-2SS-CCC": {
+    "topSnapTop": 200.64,
+    "topSnapLeft": 554.73,
+    "bottomSnapTop": 266.64,
+    "bottomSnapLeft": 629.73,
+    "price": 189.00,
+    "SnapCount": 4
+  },
+
+  "SYM-IN-2AC-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 172.00,
+    "SnapCount": 2
+  },
+
+  "SYM-IN-2AC-1CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 188.00,
+    "SnapCount": 0
+  },
+
+  "SYM-IN-2AC-1CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 197.00,
+    "SnapCount": 2
+  },
+
+  "SYM-IN-3AC-1CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 205.00,
+    "SnapCount": 0
+  },
+
+  "SYM-IN-2AC-1CA-2SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 206.00,
+    "SnapCount": 4
+  },
+
+  "SYM-IN-2AC-1CA-1VGA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 206.00,
+    "SnapCount": 2
+  },
+
+  "SYM-IN-2AC-2CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 222.00,
+    "SnapCount": 2
+  },
+
+  "SYM-IN-3AC-1CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 214.00,
+    "SnapCount": 2
+  },
+
+  "SYM-IN-3AC-2CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 230.00,
+    "SnapCount": 0
+  },
+
+  "SYM-IN-3AC-2CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 239.00,
+    "SnapCount": 2
+  },
+
+  "SYM-IN-3AC-1CA-2SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 223.00,
+    "SnapCount": 4
+  },
+
+  "SYM-IN-3AC-1CA-1VGA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 223.00,
+    "SnapCount": 2
+  },
+
+  "SYM-IN-4AC-1CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 222.00,
+    "SnapCount": 0
+  },
+
+  "SYM-IN-4AC-1CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 231.00,
+    "SnapCount": 2
+  },
+
+  "SYM-DIN-2AC-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 305.00,
+    "SnapCount": 2
+  },
+
+
+  "SYM-DIN-2AC-1CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 337.00,
+    "SnapCount": 0
+  },
+
+  "SYM-DIN-2AC-1CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 355.00,
+    "SnapCount": 2
+  },
+
+  "SYM-DIN-3AC-1CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 371.00,
+    "SnapCount": 0
+  },
+
+  "SYM-DIN-2AC-1CA-2SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 373.00,
+    "SnapCount": 4
+  },
+
+  "SYM-DIN-2AC-1CA-1VGA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 373.00,
+    "SnapCount": 2
+  },
+
+  "SYM-DIN-2AC-2CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 405.00,
+    "SnapCount": 2
+  },
+
+  "SYM-DIN-3AC-1CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 389.00,
+    "SnapCount": 2
+  },
+
+  "SYM-DIN-3AC-2CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 421.00,
+    "SnapCount": 0
+  },
+
+
+  "SYM-DIN-3AC-2CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 439.00,
+    "SnapCount": 2
+  },
+
+  "SYM-DIN-3AC-1CA-2SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 407.00,
+    "SnapCount": 4
+  },
+
+  "SYM-DIN-3AC-1CA-1VGA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 407.00,
+    "SnapCount": 2
+  },
+
+  "SYM-DIN-4AC-1CA-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 405.00,
+    "SnapCount": 0
+  },
+
+  "SYM-DIN-4AC-1CA-1SS-CCC": {
+    "topSnapTop": "",
+    "topSnapLeft": "",
+    "bottomSnapTop": "",
+    "price": 423.00,
+    "SnapCount": 2
+  },
+
+  "SS-CAT5e-X": {
+    "price": 17.00
+  },
+
+  "SS-CAT6-X": {
+    "price": 24.00
+  },
+
+  "SS-HDMI-X": {
+    "price": 29.00
+  },
+
+  "SS-RJ45-X": {
+    "price": 17.00
+  },
+
+  "SS-RJCAT6-X": {
+    "price": 23.00
+  },
+
+  "SS-SCAT6A": {
+    "price": 29.00
+  },
+
+  "SS-USBA-X": {
+    "price": "Call"
+  }
+}

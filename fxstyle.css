@@ -1,0 +1,290 @@
+.dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+  }
+
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: 1rem;
+    margin-right: .1rem;
+    padding: 0;
+  }
+  /* */
+  .dropdown-item:hover,
+  .dropdown-item:active,
+  .dropdown-item:focus {
+      background-color: #28a745;
+  
+  }
+  .sidebar2 {
+      background-color: dimgray;
+      color: white;
+  }
+  .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+
+  @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+      }
+  }
+
+  #divCardCont {
+      background-color: white;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .main {
+      background-color: white;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .body-st {
+      background-image: url("./background.jpg");
+  }
+
+  .sidebar {
+      /*padding: 0px;
+      margin: 0px;
+      border: 0px;*/
+      background-color: black;
+      color: white !important;
+  }
+
+  .FSR {
+      border: solid white;
+      padding: 5px;
+      float: left;
+      position: relative;
+  }
+
+  .d-flex {
+      margin: 0px;
+  }
+
+  .navbar-brand {
+      float: left;
+      margin-left: 0px;
+  }
+
+  .hnav {
+      background: #e5e8e7;
+      color: #087504;
+      font-size: 20px;
+      padding: 10px;
+  }
+
+  .pagTitle {
+      color: white;
+      font-size: 35px;
+      margin: 10px;
+  }
+
+  .sidebar-sticky {
+      margin: 5px;
+  }
+
+  .card:hover {
+      border: solid green;
+  }
+
+  .nav-item:hover {
+      background-color: green;
+  }
+
+  .imgCard {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      margin-top: 7px;
+  }
+
+  .imgCardFront {
+      display: inline-block;
+      width: 25%;
+      z-index: 1;
+      margin-top: 7px;
+  }
+
+  #divcontainer {
+      background-color: white;
+      padding: 0px;
+  }
+
+  .cardRow {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding: 20px;
+      padding-bottom: 0px;
+  }
+
+  .cardRight {
+      float: left;
+  }
+
+  .cardLeft {
+      float: right;
+  }
+
+  .cardOne {
+      position: relative;
+      float: left;
+  }
+
+  .cardTwo {
+      float: right;
+  }
+
+  .cardThree {
+      float: left;
+  }
+
+  .cardFour {
+      float: right;
+  }
+
+  .dropdown-btn, a {
+      /*padding: 6px 8px 6px 16px;*/
+      text-decoration: none;
+      font-size: 20px;
+      color: #818181;
+      display: block;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+  }
+
+      .dropdown-btn, a:hover {
+          color: #f1f1f1;
+      }
+
+  .dropdown-container {
+      display: none;
+      background-color: #262626;
+      padding-left: 8px;
+  }
+
+  .fi-caret-bottom {
+      float: right;
+      padding-right: 8px;
+  }
+
+  .catSnap {
+      position: relative;
+      z-index: 2;
+      width: 56px;
+      margin: 5px;
+  }
+
+  .catSnapClone {
+      position: relative;
+      z-index: 2;
+      width: 56px;
+      margin: 5px;
+  }
+
+  .drop {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+  }
+
+  #filterOne {
+      position: absolute;
+      top: 114px;
+      left: 1162px;
+      width: 52px;
+      height: 45px;
+      background: #28A745;
+      z-index: 1;
+  }
+
+  #filterTwo {
+      position: absolute;
+      top: 180px;
+      left: 1162px;
+      width: 52px;
+      height: 45px;
+      background: #28A745;
+      z-index: 1;
+  }
+
+  .fsr {
+      height: 10%;
+      width: 10%;
+  }
+
+  .sampleBox {
+      background-color: #DCDCDC;
+      border: none;
+  }
+
+  .pbar {
+      position: absolute;
+      left: -1105px;
+      z-index: 1;
+      background-color: #DCDCDC;
+      border: none;
+      padding-bottom: 100%;
+      margin-bottom: -100%;
+      transition: 0.8s all;
+      overflow: hidden;
+  }
+
+  .pbarout {
+      left: 0px;
+  }
+
+  .contTwo {
+      overflow: hidden;
+  }
+
+  .navOne {
+      padding-bottom: 100%;
+      margin-bottom: -100%;
+      z-index: 2;
+      overflow: hidden;
+  }
+
+  .colImg {
+      width: 50px;
+      height: 50px;
+      border: 3px solid black;
+  }
+
+  #submit {
+      margin-right: 10px;
+  }
+
+  .InsText {
+      padding-top: 510px;
+      padding-right: 35px;
+      margin-right: 5px;
+      margin-bottom: 0px;
+  }
+
